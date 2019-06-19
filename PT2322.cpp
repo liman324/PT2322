@@ -113,7 +113,7 @@ void PT2322::setTreble(int treb){
 }
  
 void PT2322::setVol(int vol){
-            vol = vol - 79;
+            vol = vol - 78;
             vol = abs(vol);
             int vol_10 = vol / 10;
             int vol_1 = vol - vol_10 * 10;
